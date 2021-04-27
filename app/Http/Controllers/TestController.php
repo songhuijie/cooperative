@@ -14,4 +14,9 @@ class TestController extends Controller{
 $app_id
 &response_type=code&scope=snsapi_login&state=STATE&redirect_uri=REDIRECT_URI");
     }
+
+    public function redirect(){
+
+        dd(request()->all());
+    }
 }

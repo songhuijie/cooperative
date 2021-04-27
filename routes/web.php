@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/test3','TestController@index');
+Route::get('/redirect','TestController@redirect');
 
 Route::get('/test2',function(){
 
